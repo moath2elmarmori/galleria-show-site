@@ -1,0 +1,38 @@
+.pallet-footer {
+  padding: 2rem;
+}
+.pallet-footer .pallets-progress-bar-container {
+  width: 100%;
+  height: 2px;
+  background-color: #d3d3d3;
+  position: relative;
+}
+.pallet-footer .pallets-progress-bar-container .pallets-progress-bar {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+.pallet-footer .footer-functionality {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.pallet-footer .footer-functionality .pallet-info p {
+  color: #666;
+}
+.pallet-footer .footer-functionality .next-prev-div {
+  display: flex;
+  gap: 5%;
+}
+.pallet-footer .footer-functionality .next-prev-div svg {
+  color: #b9b9b9;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.pallet-footer .footer-functionality .next-prev-div svg:hover {
+  color: black;
+}
