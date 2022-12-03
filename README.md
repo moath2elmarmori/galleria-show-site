@@ -24,6 +24,7 @@
 ### Built with:
 
 - ReactJS for everything actually 😅
+- framer-motion for animating the app
 - react-router-dom for creating a single page app
 - react-icons for some icons
 
